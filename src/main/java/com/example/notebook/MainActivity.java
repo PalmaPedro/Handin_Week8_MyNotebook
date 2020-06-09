@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         List<Note> allNotes = noteDatabase.getAllNotes();
         recyclerView = findViewById(R.id.recyclerView);
 
-        //displayList(allNotes);
+        displayList(allNotes);
     }
 
 
